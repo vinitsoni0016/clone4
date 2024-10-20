@@ -76,9 +76,29 @@ header{
   left: 50%;
   transform: translate(-50%,-50%);
 }
+.main-heading{
+  font-weight: 300;
+}
+.main-heading p{
+  line-height: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 100;
+ 
+  
+}
+.sk{
+  
+  display: block;
+  margin-top: 3rem;
+  font-weight:lighter;
+  font-size: 1.20rem;
+  
+  color: #cfcfcfbd;
+  font-stretch:ultra-condensed;
+  
+  
 
-p{
-  margin-top: 2rem;
 }
 
 .btn{
@@ -537,8 +557,3 @@ p {
   font-size: 1.25rem;
   font-weight: 500;
 }
-
-@media (max-width:786px){
-}
-
-
